@@ -1,0 +1,24 @@
+[
+    
+    {
+        "username": "shane.mann@tranzaura.com",
+        "password": "Munster1",
+        "Companyname": "AdientDsrcTest2",
+        "VehicleType": "lorry",
+        "Redtext": "15",
+        "Orangetext": "20"
+
+
+    },
+
+    {
+        "username": "shane.mann@tranzaura.com",
+        "password": "Munster1",
+        "Companyname": "AdientDsrcTest2",
+        "VehicleType": "dipper",
+        "Redtext": "8",
+        "Orangetext": "20"
+
+
+    }
+]

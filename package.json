@@ -1,0 +1,30 @@
+{
+  "name": "cypressbdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "Testcase": "npm run test -- --spec \"cypress/integration/testcases/*.feature\"",
+    "cypress_report": "generate-mochawesome-report"
+    
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^6.0.1",
+    "cypress-cucumber-preprocessor": "^4.0.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-mochawesome-reporter": "^1.3.0",
+    "cypress-xpath": "^1.6.1",
+    "mochawesome": "^6.2.1",
+    "mochawesome-merge": "^4.2.0",
+    "node-xlsx": "^0.15.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "dependencies": {
+    "csvtojson": "^2.0.10"
+  }
+}
