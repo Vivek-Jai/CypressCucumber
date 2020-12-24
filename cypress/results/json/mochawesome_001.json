@@ -1,0 +1,109 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2020-12-24T09:34:12.205Z",
+    "end": "2020-12-24T09:34:12.876Z",
+    "duration": 671,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "c0ae9d60-8294-41b7-ad81-a1cf026b348e",
+      "title": "",
+      "fullFile": "cypress\\integration\\testcases\\NewVehicleType.feature",
+      "file": "cypress\\integration\\testcases\\NewVehicleType.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b2a3a77c-aab4-4080-ba28-563b40c2f74a",
+          "title": "New Vehicle Type creation",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "New Vehicle Type creation",
+              "fullTitle": "New Vehicle Type creation New Vehicle Type creation",
+              "timedOut": null,
+              "duration": 571,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": "{\n  \"title\": \"Failed screenshot\",\n  \"value\": \"screenshots\\\\testcases\\\\NewVehicleType.feature\\\\New Vehicle Type creation -- New Vehicle Type creation (failed).png\"\n}",
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "Error: Step implementation missing for: Navigate to the application by using the URL",
+                "estack": "Error: Step implementation missing for: Navigate to the application by using the URL\n    at Context.resolveAndRunStepDefinition (http://localhost:55171/__cypress/tests?p=cypress\\integration\\testcases\\NewVehicleType.feature:10418:11)\n    at Context.eval (http://localhost:55171/__cypress/tests?p=cypress\\integration\\testcases\\NewVehicleType.feature:9756:35)",
+                "diff": null
+              },
+              "uuid": "9f151c02-dbc8-4a77-859c-66f82cc0f8fb",
+              "parentUUID": "b2a3a77c-aab4-4080-ba28-563b40c2f74a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "9f151c02-dbc8-4a77-859c-66f82cc0f8fb"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 571,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/results/json",
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}

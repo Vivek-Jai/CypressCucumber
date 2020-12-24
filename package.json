@@ -6,7 +6,9 @@
   "scripts": {
     "test": "node_modules\\.bin\\cypress run",
     "Testcase": "npm run test -- --spec \"cypress/integration/testcases/*.feature\"",
-    "cypress_report": "generate-mochawesome-report"
+    "cypress_report": "generate-mochawesome-report",
+    "finalrun": "npm run Testcase &&  npm run cypress_report",
+    "lastrun":"npm run finalrun"
     
   },
   "author": "",
