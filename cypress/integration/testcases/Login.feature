@@ -11,7 +11,7 @@ Feature: Test the Transaura Login functionality
         And Click the signin button
         And Verify the username is displayed in the dashboard
             | username                 |
-            | shane.mann@tranzaura.com |
+            | shane.mann@tranzaura.co |
         When the user click the Logout button
         Then Verify the application is successfully Signoff
 
